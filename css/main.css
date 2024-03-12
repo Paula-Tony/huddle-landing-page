@@ -1,0 +1,73 @@
+:root {
+  --pink-clr: hsl(322, 100%, 66%);
+  --light-pink-clr: hsl(321, 100%, 78%);
+}
+::selection {
+  background-color: var(--light-pink-clr);
+  color: white;
+}
+body {
+  font-family: "Poppins", sans-serif; /* 700 */
+  font-family: "Open Sans", sans-serif; /* 400 - 600 - 700 */
+}
+.font-family-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.text-pink {
+  color: var(--pink-clr);
+}
+.bg-pink {
+  background-color: var(--pink-clr);
+}
+.border-pink {
+  border-color: var(--pink-clr);
+}
+.main-btn:hover {
+  background-color: var(--light-pink-clr);
+}
+@media (max-width: 767px) {
+  .main-btn {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+}
+@media (max-width: 767px) {
+  header div img {
+    width: 150px;
+  }
+  header a {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+}
+header a:hover {
+  color: var(--light-pink-clr) !important;
+  border-color: var(--light-pink-clr) !important;
+}
+.statistics > div .statistics-num {
+  font-size: calc(3rem + 3vw);
+}
+.sub-section {
+  background-color: hsl(207, 100%, 98%);
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+}
+footer .social img {
+  width: 30px;
+}
+footer input.warn {
+  border-color: #dc3545;
+}
+footer input:focus {
+  outline: none;
+}
+footer button:hover {
+  background-color: var(--light-pink-clr) !important;
+}
